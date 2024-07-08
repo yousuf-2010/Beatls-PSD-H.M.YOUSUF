@@ -20,14 +20,7 @@ This project is a conversion from PSD (Photoshop Document) to HTML, completed by
 - Bootstrap5
 
 ## Screenshots
-![Hero Section](https://ibb.co/BVLWXd2)
-![About Us Section](https://ibb.co/THjLQpm)
-![Our Services Section](https://ibb.co/y04TsP2)
-![Our Gallert Section](https://ibb.co/B63mYtj)
-![Our Team Section](https://ibb.co/nRNfPMj)
-![Testimonial Section](https://ibb.co/2gVS86V)
-![Footer Section](https://ibb.co/ZJVhgpb)
-
+![Full Website Screenshot](https://github.com/yousuf-2010/Beatls-PSD-H.M.YOUSUF/blob/yousuf-2010-github-custom/full_page.png)
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
 
