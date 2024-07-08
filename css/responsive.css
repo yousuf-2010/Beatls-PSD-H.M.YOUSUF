@@ -1,0 +1,107 @@
+/*X-Small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+@media (min-width: 320px) and (max-width: 575px) {
+	.welcome p{
+		text-align: center;
+		margin: 5px 0;
+	}
+
+	.service_main{
+		margin-top: 60px;
+	}
+	.header_icon {
+		display: flex;
+		justify-content: center;
+		margin-top: 6px;
+	}
+
+	.small_img{
+		margin-top: 20px;
+	}
+
+	.team_overlay ul li a{
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}
+
+	.team_main{
+		margin-top: 20px;
+	}
+
+	.piramid{
+		top: -7%;
+		left: 44%;
+	}
+
+	.round_img{
+		margin-top: 20px;
+	}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	.service_main{
+		margin-top: 60px;
+	}
+	.team_main{
+		margin-top: 20px;
+	}
+	.small_img{
+		margin-top: 20px;
+	}
+	.round_img{
+		margin-top: 20px;
+	}
+
+	.service_icon_main {
+    	left: 42%;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.footer_icon a {
+    	height: 25px;
+    	width: 25px;
+    	line-height: 25px;
+    	font-size: 12px;
+	}
+
+	.footer_number p{
+		font-size: 10px;
+	}
+
+	.footer_menu ul li a{
+		line-height: 5px;
+		font-size: 10px;
+	}
+
+	.footer_copyright{
+		margin-top: 20px;
+	}
+
+	.service_icon_main {
+	    left: 31%;
+}
+
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}

@@ -1,0 +1,490 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,nav,div,ul,ol,li,a{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "Oswald", sans-serif;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+/*header part css start*/
+header{
+	background-color: #0872b9;
+	padding: 10px 0;
+}
+
+.welcome p{
+	color: white;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	padding: 0 20px;
+
+}
+.header_icon ul{
+	float: right;
+}
+
+.header_icon ul li{
+	float: left;
+	padding: 0 20px;
+}
+
+.header_icon ul li a{
+	color: white;
+}
+
+.header_icon ul li a:hover{
+	color: black;
+	transition: all linear 0.3s;
+}
+/*header part css end*/
+
+
+/*Navigation Part CSS Start*/
+.navbar-nav .nav-item .active{
+	color: #0872b9;
+}
+
+/*Navigation Part CSS End*/
+
+/* Banner Part CSS Start */
+#banner{
+	background: url(../img/thumb_606_reference.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner_overlay{
+	padding: 88px 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner_content{
+	text-align: right;
+	color: white;
+}
+.banner_content h4{
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.banner_content h1{
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+.banner_content p{
+	font-family: "open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 25px;
+	padding-bottom: 40px;
+}
+.banner_content a{
+	padding: 10px 30px;
+	border: 2px solid white;
+	margin-left: 20px;
+	color: white;
+	font-size: 14px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: all linear .3s;
+}
+.banner_content a:hover{
+	background-color: #0872b9;
+	border: 2px solid #0872b9;
+	transition: all linear .3s;
+}
+
+
+/* Banner Part CSS End */
+
+/*About Part CSS Start*/
+.common_head h4{
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 35px;
+	font-size: 24px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #353535;
+}
+.common_head{
+	position: relative;
+}
+.common_head h4::before {
+  content: '..................';
+  position: absolute;
+  bottom: 10;
+  color: blue;
+}
+.common_head img{
+	position: absolute;
+	bottom: -3px;
+	left: 46.3%;
+}
+
+.about_content p:first-child{
+	padding-top: 42px;
+	padding-bottom: 32px;
+}
+
+.about_content p{
+	line-height: 27px;
+	font-size: 18px;
+}
+/*About Part CSS Start*/
+
+/* Service Part CSS Start */
+.service_main{
+	position: relative;
+	margin-top: 30px;
+}
+
+.service_main:hover .service_icon_main,
+.service_main:hover .ser_icon{
+	background-color: #5bc5f4;
+	transition: all linear .3s;
+}
+.service_icon_main{
+	height: 80px;
+	width: 80px;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 3px solid white;
+	position: absolute;
+	top: -25%;
+	left: 39%;
+	transition: all linear .3s;
+}
+
+.ser_icon{
+	height: 70px;
+	width: 70px;
+	background-color: #f1f1f1;
+	border: 3px solid white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.service_content{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 50px 20px 20px;
+}
+.service_content h4{
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #353535;
+	padding-bottom: 5px;
+}
+.service_content p{
+	font-family: "open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 25px;
+}
+/* Service Part CSS End */
+
+/* Gallery Part CSS Start */
+.small_img{
+	position: relative;
+	margin-bottom: 20px;
+}
+.gallery_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: scale(0);
+	transition: all linear .3s;
+}
+
+.gallery_overlay a{
+	height: 40px;
+	width: 40px;
+	background-color: #5bc5f4;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	display: block;
+	color: white;
+}
+
+.small_img:hover .gallery_overlay{
+	transform: scale(1);
+	transition: all linear .3s;
+}
+
+.big_img:hover .gallery_overlay{
+	transform: scale(1);
+	transition: all linear .3s;
+}
+.big_img{
+	position: relative;
+}
+
+/* Gallery Part CSS End */
+
+/* Team Part CSS Start */
+.team_img{
+	position: relative;
+}
+.team_overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 37%;
+	background-color: rgba(0, 0, 0, .5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: scalex(0);
+	transition: all linear .3s;
+}
+
+.team_overlay ul li a{
+	height: 40px;
+	width: 40px;
+	border: 1px solid white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	display: block;
+	color: white;
+	margin: 12px 0;
+}
+
+.team_overlay ul li a:hover{
+	background-color: #5bc5f4;
+	border: 1px solid #5bc5f4;
+	transition: all linear .3s;
+}
+
+.team_img:hover .team_overlay{
+	transform: scalex(1);
+}
+
+.team_title{
+ text-align: center;
+}
+
+.team_title h4{
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.team_title p{
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.team_main:hover .team_title h4{
+	color: #5bc5f4;
+}
+
+.team_main{
+	margin-right: 20px;
+}
+/* Team Part CSS End */
+
+/* Testimonial Part CSS Start */
+.testimonial_content{
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 20px;
+	position: relative;
+}
+.testimonial_content ul{
+	display: inline-flex;
+}
+
+.testimonial_content ul li a{
+	color: #5bc5f4;
+	padding: 4px 0;
+	display: block;
+}
+
+.round_img{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.testimonial_content h4{
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.piramid{
+	height: 40px;
+	width: 40px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: -9%;
+	left: 46%;
+	transform: rotate(45deg);
+	z-index: -1;
+}
+/* Testimonial Part CSS End */
+
+/* Footer Part CSS Start */
+footer{
+	background-color: #353535;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.footer_text p:first-child{
+	padding: 20px 0;
+}
+
+.footer_text p{
+	color: white;
+	font-size: 13px;
+}
+
+.footer_common_head{
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.footer_icon a{
+	height: 40px;
+	width: 40px;
+	background-color: #5bc5f4;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	display: block;
+	color: white;
+	margin: 12px 0;
+	margin-top: 4px;
+}
+
+.footer_number p{
+	color: white;
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.footer_menu ul li a{
+	color: white;
+	line-height: 35px;
+	font-family: "open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.footer_menu ul li a:hover{
+	color: #5bc5f4;
+}
+
+.footer_img{
+	margin-bottom: 20px;
+}
+
+
+.footer_copyright p{
+	background-color: #555555;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	font-family: "open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.footer_copyright span{
+	color: #5bc5f4;
+}
+/* Footer Part CSS End */
+
+
+/* Team Part Amination indicator Start  */
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active{
+	background-color: orange;
+}
+
+.left_icon{
+	position: absolute;
+	top: 42%;
+	left: -4%;
+	height: 40px;
+	width: 40px;
+	background-color: gray;
+	color: white;
+	display: block;
+	font-size: 20px;
+	border-radius: 50%;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.right_icon{
+	position: absolute;
+	top: 42%;
+	right: -4%;
+	height: 40px;
+	width: 40px;
+	background-color: gray;
+	color: white;
+	display: block;
+	font-size: 20px;
+	border-radius: 50%;
+	line-height: 40px;
+	cursor: pointer;
+}
+/* Team Part Amination indicator End  */
